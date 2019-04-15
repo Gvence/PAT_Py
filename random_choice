@@ -1,0 +1,10 @@
+# 方法1：
+    import random
+    index = set() 
+    while (len(index) < int(self.batch_size / 5)):
+        index.add(random.randint(0, self.batch_size - 1))
+        
+# 方法2;
+    import numpy
+    b = np.random.choice(6, 1)
+        print(b)
